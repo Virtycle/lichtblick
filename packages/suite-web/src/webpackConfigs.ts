@@ -134,7 +134,7 @@ export const mainConfig =
       target: "web",
       context: params.contextPath,
       entry: params.entrypoint,
-      devtool: isDev ? "eval-cheap-module-source-map" : params.prodSourceMap,
+      devtool: isDev ? "source-map" : params.prodSourceMap,
 
       output: {
         publicPath: params.publicPath ?? "auto",

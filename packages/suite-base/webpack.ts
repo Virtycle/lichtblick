@@ -227,7 +227,7 @@ export function makeConfig(
       minimizer: [
         new EsbuildPlugin({
           target: "es2022",
-          minify: true,
+          // minify: true,
         }),
       ],
     },
